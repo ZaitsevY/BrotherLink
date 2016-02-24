@@ -58,7 +58,7 @@ Firmware
 To make things fly you'll have to upload some firmware to the ESP8266.
 
 The best option for those who are not close to MCU firmware programing
-is to download ready-to-flash binary files from [releases](https://github.com/ZaitsevY/BrotherLink/???).
+is to download ready-to-flash binary files from the [release](https://github.com/ZaitsevY/BrotherLink/???).
 
 The firmware is based on [esp8266web](https://github.com/pvvx/esp8266web) 
 project which already contains almost all the necessary things including: 
@@ -98,31 +98,27 @@ esptool.py --port COM4 --baud 460800 write_flash -ff 80m -fm qio -fs 4m 0x00000 
 Press RESET on the module again (just to be on the save side), wait a
 couple of seconds and now you can use any of your any of your WiFi-enabled 
 devices (notebook, smartphone) to:
-1  Connect to a WiFi access point named ESP8266 (by default);
-2  Point you browser to http://192.168.4.1/fsupload (default username:password 
+
+1. Connect to a WiFi access point named ESP8266 (by default);
+2. Point you browser to http://192.168.4.1/fsupload (default username:password 
 are ESP8266:0123456789) and upload WEBFiles.bin file;
-3  Point you browser to http://192.168.4.1/ to continue device configuration.
+3. Point you browser to http://192.168.4.1/ to continue device configuration.
 
 ### Application configuration:
 
-1  WiFi Settings: set your home WiFi SSID and password, optionally switch off 
+1. WiFi Settings: set your home WiFi SSID and password, optionally switch off 
 ESP8266 access point by selecting STATION_MODE. Mention that right after switching 
 AP off you won't be able to access web interface of the module with 192.168.4.1, 
 instead reconnect your notebook (or whatever) back to your home network and 
 use http://sesp8266/ or, if the latter doesn't work for you, find out the new 
 module IP address from your WiFi router. Or just leave WiFi mode setting 
-as STATIONAP_MODE.
-
+as STATIONAP_MODE.<br>
 ![WiFi Settings](/Web_WiFi.png)
-
-2  TCP-TO-UART Settings: set baud rate to 9600, enable RX and TX inversion.
-
+2. TCP-TO-UART Settings: set baud rate to 9600, enable RX and TX inversion.<br>
 ![TCP=UART Settings](/Web_TCP-UART.png)
-
-3  System Setup: disable checking RX pin to reset WiFi configuration (*important!* 
+1. System Setup: disable checking RX pin to reset WiFi configuration (*important!* 
 When you power your device while it is connected to KH-9xx port this setting, 
-if enabled, will reset your customizations from 1).
-
+if enabled, will reset your customizations from 1).<br>
 ![System Settings](/Web_System.png)
 
 Software (Windows only)
