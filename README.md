@@ -4,14 +4,12 @@ Isn't your Brother KH-9xx online and blogging yet :smile:?
 Come on, stop wiring your room, it's time for IoT and WiFi!
 Let's create wireless BrotherLink cable!
 
-Brief
---------
-- Assemble [Hardware](# Hardware)
-- Upload [Firmware](README.md#Firmware)
-- Knit with [DesignaKnit](README.md#Software)
+## Briefly
+- Assemble [Hardware](#Hardware)
+- Upload [Firmware](#Firmware)
+- Knit with [DesignaKnit](#Software)
 
-Introduction
-------------
+## Introduction
 
 You all know that BrotherLink BLx cable are far overpriced. Some of you create 
 DIY cables following [Adafruit](https://learn.adafruit.com/electroknit?view=all)
@@ -26,9 +24,7 @@ popular for DIY IoT projects, has a lot of users, who contributed a lot of
 libraries helping to develop ESP8266 applications using pure C/C++, Arduino
 Wiring, Lua and so on.
 
-# Hardware
-Hardware
---------
+## Hardware
 
 I'm not an electronic engineer so I decided to use ready-to-use modules to reduce
 welding and avoid mistakes. As for the minimum you need:
@@ -61,9 +57,7 @@ your device becomes a BrotherLink BL5 wireless cable, while without it – just BL
 The diagram:
 ![Diagram](/BrotherLink_bb.png)
 
-# Firmware
-Firmware
---------
+## Firmware
 
 To make things fly you'll have to upload some firmware to the ESP8266.
 
@@ -131,9 +125,7 @@ When you power your device while it is connected to KH-9xx port this setting,
 if enabled, will reset your customizations from 1.).<br>
 ![System Settings](/Web_System.png)
 
-# Software
-Software (Windows only)
------------------------
+## Software
 
 DesignaKnit expects knitting machine to be connected through COM interface. 
 To make it acquainted with your device you'd install a virtual COM-port driver. 
