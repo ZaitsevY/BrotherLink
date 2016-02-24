@@ -4,10 +4,13 @@ Isn't your Brother KH-9xx online and blogging yet :smile:?
 Come on, stop wiring your room, it's time for IoT and WiFi!
 Let's create wireless BrotherLink cable!
 
+## TLDR
+[Watch it working](#video)
+
 ## Briefly
 - Assemble [Hardware](#hardware)
 - Upload [Firmware](#firmware)
-- Knit with [DesignaKnit](#software)
+- Knit with [DesignaKnit](#software-windows-only)
 
 ## Introduction
 
@@ -146,6 +149,7 @@ page, IP from WiFi Station column); set port to 12345:<br>
 
 ### Finally it's time to DesignaKnit!
 
+## Video
 YouTube video pending....
 ?????????????? see http://stackoverflow.com/questions/11804820/embed-a-you-tube-video
 [Wireless BrotherLink]()
