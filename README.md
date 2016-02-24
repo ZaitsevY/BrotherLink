@@ -7,7 +7,7 @@ Let's create wireless BrotherLink cable!
 Brief
 --------
 - Assemble [Hardware](#Hardware)
-- Flash [Firmware](#Firmware)
+- Upload [Firmware](#Firmware)
 - Knit with [DesignaKnit](#Software)
 
 Introduction
@@ -26,7 +26,7 @@ popular for DIY IoT projects, has a lot of users, who contributed a lot of
 libraries helping to develop ESP8266 applications using pure C/C++, Arduino
 Wiring, Lua and so on.
 
-#Hardware
+# Hardware
 Hardware
 --------
 
@@ -61,7 +61,7 @@ your device becomes a BrotherLink BL5 wireless cable, while without it – just BL
 The diagram:
 ![Diagram](/BrotherLink_bb.png)
 
-#Firmware
+# Firmware
 Firmware
 --------
 
@@ -131,7 +131,7 @@ When you power your device while it is connected to KH-9xx port this setting,
 if enabled, will reset your customizations from 1.).<br>
 ![System Settings](/Web_System.png)
 
-#Software
+# Software
 Software (Windows only)
 -----------------------
 
