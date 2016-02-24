@@ -1,3 +1,9 @@
+# Eclipse settings
+.settings/
+
+# Output folder
+Output/
+
 # Object files
 *.o
 *.ko
