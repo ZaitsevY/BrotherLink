@@ -26,6 +26,7 @@ popular for DIY IoT projects, has a lot of users, who contributed a lot of
 libraries helping to develop ESP8266 applications using pure C/C++, Arduino
 Wiring, Lua and so on.
 
+#Hardware
 Hardware
 --------
 
@@ -60,6 +61,7 @@ your device becomes a BrotherLink BL5 wireless cable, while without it – just BL
 The diagram:
 ![Diagram](/BrotherLink_bb.png)
 
+#Firmware
 Firmware
 --------
 
@@ -129,8 +131,9 @@ When you power your device while it is connected to KH-9xx port this setting,
 if enabled, will reset your customizations from 1.).<br>
 ![System Settings](/Web_System.png)
 
-Software
---------
+#Software
+Software (Windows only)
+-----------------------
 
 DesignaKnit expects knitting machine to be connected through COM interface. 
 To make it acquainted with your device you'd install a virtual COM-port driver. 
