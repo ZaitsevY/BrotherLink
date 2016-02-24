@@ -24,25 +24,25 @@ Hardware
 I'm not an electronic engineer so I decided to use ready-to-use modules to reduce
 welding and avoid mistakes. As for the minimum you need:
 
-1  ESP8266 module (or board). I selected [WeMos D1 mini](http://www.wemos.cc/wiki/doku.php?id=en:d1_mini) -
+1. ESP8266 module (or board). I selected [WeMos D1 mini](http://www.wemos.cc/wiki/doku.php?id=en:d1_mini) -
 a minimalist ESP8266 board with all necessary resistors, integrated USB-UART 
 bridge (you won't need a separate converter to connect the module to PC) and 
 a 5V-to-3.3V power converter (not very reliable though).
-2  Logic level converter. Brother KH-9xx serial interface operates at 5V level (at least),
+2. Logic level converter. Brother KH-9xx serial interface operates at 5V level (at least),
 while ESP8266 IO expects 3.3V. The simplest logic level conversion can be achieved with
 two resistors by I opted to use a factory manufactured module. I bought mine from
 [AliExpress](http://www.aliexpress.com/item/5pcs-lot-4-channel-IIC-I2C-Logic-Level-Converter-Bi-Directional-Module-5V-to-3-3V/32308637756.html)
 which is times cheaper than the one from [SparkFun](https://www.sparkfun.com/products/12009).
 *Caution*: do not! connect ESP8266 RX/TX directly to KH-9xxx port, doing so will 
 most likely harm the module.
-3  Power. ESP8266 operates at 3.3V (caution!); to coordinate logic levels you'll
+3. Power. ESP8266 operates at 3.3V (caution!); to coordinate logic levels you'll
 also need 5V. For the time writing the article I feed my device with a breadboard
 power supply (note separate +5V and +3.3V buses on the diagram), but for a final
 setup I'm going to pick up +5V directly from KH-9xx internals in order to get rid
 of wires completely. To convert +5V to +3.3V you should consider including a
 separate AMS1117-based [power module](http://www.aliexpress.com/item/Free-shipping-5pcs-lot-AMS1117-3-3V-power-supply-module-AMS1117-3-3-power-module-AMS1117/1996263198.html)
 (not shown on the diagram). 
-4  Optionally, to provide for Interactive Knitting (IK)  mode of the [DesignaKnit](https://www.softbyte.co.uk/designaknit.htm)
+4. Optionally, to provide for Interactive Knitting (IK)  mode of the [DesignaKnit](https://www.softbyte.co.uk/designaknit.htm)
 application, you might want to add a reed switch and a 10kOm resistor (or, like
 did I, use a pre-manufactured [reed switch module](http://www.aliexpress.com/item/Free-Shipping-Reed-sensor-module-magnetron-module-reed-switch-magnetic-switch-for-arduino/1946556259.html)).
 You also need a magnet, which you'll put (glue or somehow attach) to the carriage
