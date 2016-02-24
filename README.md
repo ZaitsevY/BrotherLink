@@ -1,9 +1,17 @@
-# BrotherLink
-Wireless Brother KH-9xx knitting machine connection.
+# Wireless Brother KH-9xx knitting machine connection.
 
 Isn't your Brother KH-9xx online and blogging yet :smile:?
 Come on, stop wiring your room, it's time for IoT and WiFi!
 Let's create wireless BrotherLink cable!
+
+Brief
+--------
+- Assemble [Hardware](#Hardware)
+- Flash [Firmware](#Firmware)
+- Knit with [DesignaKnit](#Software)
+
+Introduction
+------------
 
 You all know that BrotherLink BLx cable are far overpriced. Some of you create 
 DIY cables following [Adafruit](https://learn.adafruit.com/electroknit?view=all)
@@ -121,8 +129,8 @@ When you power your device while it is connected to KH-9xx port this setting,
 if enabled, will reset your customizations from 1.).<br>
 ![System Settings](/Web_System.png)
 
-Software (Windows only)
------------------------
+Software
+--------
 
 DesignaKnit expects knitting machine to be connected through COM interface. 
 To make it acquainted with your device you'd install a virtual COM-port driver. 
@@ -146,3 +154,9 @@ page, IP from WiFi Station column); set port to 12345:<br>
 YouTube video pending....
 ?????????????? see http://stackoverflow.com/questions/11804820/embed-a-you-tube-video
 [Wireless BrotherLink]()
+
+Acknowlegement
+--------------
+
+- Great knitting machine interface analysis by Grakham Wideman at 
+https://grahamwideman.wikispaces.com/Knitting+machine+interfaces
