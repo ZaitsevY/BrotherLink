@@ -103,19 +103,26 @@ devices (notebook, smartphone) to:
 are ESP8266:0123456789) and upload WEBFiles.bin file;
 3  Point you browser to http://192.168.4.1/ to continue device configuration.
 
-Application configuration:
+### Application configuration:
+
 1  WiFi Settings: set your home WiFi SSID and password, optionally switch off 
 ESP8266 access point by selecting STATION_MODE. Mention that right after switching 
 AP off you won't be able to access web interface of the module with 192.168.4.1, 
 instead reconnect your notebook (or whatever) back to your home network and 
 use http://sesp8266/ or, if the latter doesn't work for you, find out the new 
-module IP address from your WiFi router. Or just leave WiFi mode setting STATIONAP_MODE.
+module IP address from your WiFi router. Or just leave WiFi mode setting 
+as STATIONAP_MODE.
+
 ![WiFi Settings](/Web_WiFi.png)
+
 2  TCP-TO-UART Settings: set baud rate to 9600, enable RX and TX inversion.
+
 ![TCP=UART Settings](/Web_TCP-UART.png)
+
 3  System Setup: disable checking RX pin to reset WiFi configuration (*important!* 
 When you power your device while it is connected to KH-9xx port this setting, 
 if enabled, will reset your customizations from 1).
+
 ![System Settings](/Web_System.png)
 
 Software (Windows only)
@@ -130,12 +137,15 @@ I didn't try them all so the following screen shots are all about HW VSP.
 
 After installing HW VSP you'd create a virtual COM-port with the following settings:
 First, at the Settings tab, click Login to acquire administrative access, 
-then configure as on the following screen shot.
+then configure as on the following screen shot:
 ![VSP Settings](/VSP_Settings.png)
-Now go to the Virtual Serial Port tab to select your COM-port name; put “sesp8266” for the IP-address (or take the IP of your device from its web interface WiFi Settings page, IP from WiFi Station column); set port to 12345.
+
+Now go to the Virtual Serial Port tab to select your COM-port name; put “sesp8266” for 
+the IP-address (or take the IP of your device from its web interface WiFi Settings 
+page, IP from WiFi Station column); set port to 12345:
 ![VSP Virtual Port](/VSP_Port.png)
 
-Finally it's time to DesignaKnit!
+### Finally it's time to DesignaKnit!
 
 ?????????????? see http://stackoverflow.com/questions/11804820/embed-a-you-tube-video
 [Wireless BrotherLink]()
