@@ -5,9 +5,9 @@ Come on, stop wiring your room, it's time for IoT and WiFi!
 Let's create wireless BrotherLink cable!
 
 ## Briefly
-- Assemble [Hardware](#Hardware)
-- Upload [Firmware](#Firmware)
-- Knit with [DesignaKnit](#Software)
+- Assemble [Hardware](#hardware)
+- Upload [Firmware](#firmware)
+- Knit with [DesignaKnit](#software)
 
 ## Introduction
 
@@ -125,7 +125,7 @@ When you power your device while it is connected to KH-9xx port this setting,
 if enabled, will reset your customizations from 1.).<br>
 ![System Settings](/Web_System.png)
 
-## Software
+## Software (Windows only)
 
 DesignaKnit expects knitting machine to be connected through COM interface. 
 To make it acquainted with your device you'd install a virtual COM-port driver. 
