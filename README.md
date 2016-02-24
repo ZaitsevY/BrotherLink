@@ -116,9 +116,9 @@ as STATIONAP_MODE.<br>
 ![WiFi Settings](/Web_WiFi.png)
 2. TCP-TO-UART Settings: set baud rate to 9600, enable RX and TX inversion.<br>
 ![TCP=UART Settings](/Web_TCP-UART.png)
-1. System Setup: disable checking RX pin to reset WiFi configuration (*important!* 
+3. System Setup: disable checking RX pin to reset WiFi configuration (*important!* 
 When you power your device while it is connected to KH-9xx port this setting, 
-if enabled, will reset your customizations from 1).<br>
+if enabled, will reset your customizations from 1.).<br>
 ![System Settings](/Web_System.png)
 
 Software (Windows only)
@@ -133,12 +133,12 @@ I didn't try them all so the following screen shots are all about HW VSP.
 
 After installing HW VSP you'd create a virtual COM-port with the following settings:
 First, at the Settings tab, click Login to acquire administrative access, 
-then configure as on the following screen shot:
+then configure as on the following screen shot:<br>
 ![VSP Settings](/VSP_Settings.png)
 
 Now go to the Virtual Serial Port tab to select your COM-port name; put “sesp8266” for 
 the IP-address (or take the IP of your device from its web interface WiFi Settings 
-page, IP from WiFi Station column); set port to 12345:
+page, IP from WiFi Station column); set port to 12345:<br>
 ![VSP Virtual Port](/VSP_Port.png)
 
 ### Finally it's time to DesignaKnit!
