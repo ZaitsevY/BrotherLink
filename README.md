@@ -6,9 +6,9 @@ Let's create wireless BrotherLink cable!
 
 Brief
 --------
-- Assemble [Hardware](#Hardware)
-- Upload [Firmware](#Firmware)
-- Knit with [DesignaKnit](#Software)
+- Assemble [Hardware](# Hardware)
+- Upload [Firmware](README.md#Firmware)
+- Knit with [DesignaKnit](README.md#Software)
 
 Introduction
 ------------
