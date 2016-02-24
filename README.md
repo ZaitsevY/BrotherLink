@@ -58,7 +58,7 @@ Firmware
 To make things fly you'll have to upload some firmware to the ESP8266.
 
 The best option for those who are not close to MCU firmware programing
-is to download ready-to-flash binary files from the [release](releases/download/v1.0/release.zip).
+is to download ready-to-flash binary files from the [release](BrotherLink/releases/download/v1.0/release.zip).
 
 The firmware is based on [esp8266web](https://github.com/pvvx/esp8266web) 
 project which already contains almost all the necessary things including: 
