@@ -77,7 +77,7 @@ sources are [here](https://github.com/ZaitsevY/esp8266web/tree/custom)
 and the sources of the application (Eclipse project) are right in this
 very repository.
 Again, to skip the time consuming learning trail of compiling firmware 
-from sources, you might prefer to download the [ready-to-flash binary files}(../../releases/download/v1.0/release.zip).
+from sources, you might prefer to download the [ready-to-flash binary files](../../releases/download/v1.0/release.zip).
 
 To upload firmware to your module you'll have to install [Python](https://www.python.org/downloads/) 
 (choose 2.x version) with [pyserial](https://pythonhosted.org/pyserial/) 
