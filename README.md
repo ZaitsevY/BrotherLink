@@ -160,6 +160,6 @@ Finally it's time to DesignaKnit!
 
 ## Acknowlegements
 
-- Great knitting machine interface analysis by Grakham Wideman at 
+- Great knitting machine interface analysis by Graham Wideman at 
 https://grahamwideman.wikispaces.com/Knitting+machine+interfaces
 - Splendid ESP8266 project by Victor at https://github.com/pvvx/esp8266web
