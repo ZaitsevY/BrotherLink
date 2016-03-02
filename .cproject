@@ -26,7 +26,7 @@
 								<option id="gnu.c.compiler.option.warnings.toerrors.132899364" name="Warnings as errors (-Werror)" superClass="gnu.c.compiler.option.warnings.toerrors" useByScannerDiscovery="false" value="true" valueType="boolean"/>
 								<option id="gnu.c.compiler.option.misc.other.1804837094" name="Other flags" superClass="gnu.c.compiler.option.misc.other" useByScannerDiscovery="false" value="-c -Wno-pointer-sign -mtarget-align -mlongcalls -mno-serialize-volatile -mtext-section-literals -fno-tree-ccp -foptimize-register-move -fno-inline-functions -Wl,--wrap=os_printf_plus -Wl,-EL -nostdlib" valueType="string"/>
 								<option id="gnu.c.compiler.option.include.paths.573490349" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
-									<listOptionValue builtIn="false" value="../Source"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/BrotherLink/Source}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp8266web/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp8266web/app/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp8266web/app/web/include}&quot;"/>
