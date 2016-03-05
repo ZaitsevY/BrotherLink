@@ -64,7 +64,7 @@ your device becomes a BrotherLink BL5 wireless cable, while without it – just BL
 To make things fly you'll have to upload some firmware to the ESP8266.
 
 The best option for those who are not close to MCU firmware programing
-is to download ready-to-flash binary files from the [release](../../releases/download/v1.0/release.zip).
+is to download ready-to-flash binary files from the [release](../../releases/).
 
 The firmware is based on [esp8266web](https://github.com/pvvx/esp8266web) 
 project which already contains almost all the necessary things including: 
@@ -77,7 +77,7 @@ sources are [here](https://github.com/ZaitsevY/esp8266web/tree/custom)
 and the sources of the application (Eclipse project) are right in this
 very repository.
 Again, to skip the time consuming learning trail of compiling firmware 
-from sources, you might prefer to download the [ready-to-flash binary files](../../releases/download/v1.0/release.zip).
+from sources, you might prefer to download the [ready-to-flash binary files](../../releases/).
 
 To upload firmware to your module you'll have to install [Python](https://www.python.org/downloads/) 
 (choose 2.x version) with [pyserial](https://pythonhosted.org/pyserial/) 
