@@ -35,7 +35,7 @@ Or you can leave this setting STATIONAP_MODE.
 After device is connected to your home WiFi, your notebook/smartphone/etc can now 
 leave ESP8266 and return to your home WiFi. The address of the device in your
 home network becomes "sesp8266" (http://sesp8266). If the latter doesn't work
-for you, you'll have to get the device's IP-address from your WiFi router.
+for you, you'll have to get the device's IP-address from your WiFi router.<br>
 ![WiFi Settings](/Web_WiFi.png)
 
 ## DesignaKnit configuration
@@ -71,7 +71,7 @@ HW VSP might help but they are by some reason disabled.
 
 Put a magnet from the package contents (or any other one) onto the arm of the 
 knitting machine carriage and fix it with scotch tape.
-Fix the device on top of the machine (you may use the provided piece of double 
+Position the device on top of the machine (you may use the provided piece of double 
 sided tape to fix it) so, that the arm with the magnet will pass the reed switch
 at a distance of 3..5 mm. There's a led which will flash when the reed switch 
 detects the magnet pass. Now you're ready for interactive mode.
